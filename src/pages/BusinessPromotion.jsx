@@ -1,5 +1,5 @@
-import { Users, TrendingUp, Lightbulb, Target, BarChart3, Building2, CheckCircle2 } from "lucide-react";
-import BusinessPromotion from "../assets/business-promotion.jpg";
+import { TrendingUp, Lightbulb, Target, BarChart3, CheckCircle2 } from "lucide-react";
+import BusinessPromotion from "../assets/BusinessPromotion.jpg";
 
 import Business1 from '../assets/buiness.jpg';
 
@@ -11,7 +11,7 @@ export default function BusinessPromotion() {
        
         <div className="flex justify-center">
           <img
-            src={Business2}
+            src={BusinessPromotion}
             alt="Business Growth"
             className="rounded-4xl shadow-lg w-full md:w-[90%] object-cover border-8 border-gray-200"
           />
