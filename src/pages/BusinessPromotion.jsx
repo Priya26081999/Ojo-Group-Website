@@ -1,6 +1,7 @@
 import { Users, TrendingUp, Lightbulb, Target, BarChart3, Building2, CheckCircle2 } from "lucide-react";
+import BusinessPromotion from "../assets/business-promotion.jpg";
+
 import Business1 from '../assets/buiness.jpg';
-import Business2 from '../assets/business Promotion.jpg';
 
 export default function BusinessPromotion() {
   return (
