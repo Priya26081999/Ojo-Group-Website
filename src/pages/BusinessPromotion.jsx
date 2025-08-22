@@ -1,5 +1,8 @@
 import { TrendingUp, Lightbulb, Target, BarChart3, CheckCircle2 } from "lucide-react";
-import BusinessImg from "../assets/BusinessPromotion.jpg";
+
+import Business1 from "../assets/buiness.jpg";
+import BusinessPromotionImg from "../assets/BusinessPromotion.jpg"; 
+
 
 
 import Business1 from '../assets/buiness.jpg';
@@ -12,7 +15,7 @@ export default function BusinessPromotion() {
        
         <div className="flex justify-center">
           <img
-            src={BusinessImg}
+            src={BusinessPromotionImg}
             alt="Business Growth"
             className="rounded-4xl shadow-lg w-full md:w-[90%] object-cover border-8 border-gray-200"
           />
@@ -57,7 +60,7 @@ export default function BusinessPromotion() {
           />
         </div>
 
-        {/* Left Content */}
+        
         <div className="order-1 md:order-2">
           <h3 className="text-3xl font-bold mb-4 text-red-700">Why Choose Ojo Business Promotions?</h3>
           <ul className="space-y-3">
